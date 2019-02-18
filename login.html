@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="app" class="ng-scope">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Login</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" type="image/png" href="images/logo.png">
+
+    <link rel="stylesheet" href="css/dependencies.7870e5cc.css">
+    <link rel="stylesheet" href="css/production.c58a749e.css">
+</head>
+
+<body ng-controller="AppCtrl" class="ng-scope">
+
+<div class="access-screen ng-scope">
+    <div class="access-screen-logo">
+        <a href="index.html" title="Fuspay"><img src="images/logo_1.png" style="max-width: 198px;"></a>
+    </div>
+    <div ui-view="" class="ng-scope"><div class="access-wrap animated fadeIn ng-scope">
+                <form class="access-box ng-valid-email ng-dirty ng-valid-parse ng-valid ng-valid-required" name="loginForm">
+                    <h1 class="access-box-title text-center m-b-lg">Log In</h1>
+                    <div class="form-group">
+                        <input type="email" class="form-control input-md ng-valid-email ng-dirty ng-valid ng-valid-required ng-touched" placeholder="Email" required="">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control input-md ng-dirty ng-valid-parse ng-valid ng-valid-required ng-touched" placeholder="Password" required="">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-lg btn-success btn-block loading-button ng-scope"><span class="default-state">Login to your account</span></button>
+                    </div>
+                </form>
+
+            <div class="access-base">
+                <div>New to Fuspay? <a href="signup.html">Sign Up</a></div>
+                <div><a ui-sref="access.request-password-reset" href="request-password-reset.html">Forgot your password?</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
